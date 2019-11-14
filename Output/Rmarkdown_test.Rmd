@@ -1,0 +1,45 @@
+---
+title: "My_first_Rmarkdown"
+author: "Samuel Terkper Ahuno"
+date: "11/14/2019"
+output:
+  word_document: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+# This is the beginning of the end
+## But actually we left the middle out
+### Probably we can call this the end; header with 3 harshes to see how it differs from the rest of the headrs above
+
+This is an R Markdown document created by Samuel Ahuno to test R markdown utility. I'm not sure I've effective used this befpre, but i guess the journey of a 1000 miles begin with a step so I am open to the possibilities that comes with it. To learn more about this cecheck out the official R markdown website. to learn more about my project; check out my  github page; wishing you the very best; Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+```{r summary(cars$speed)}
+head(cars$speed)
+```
+
+## Hummm? should there be space between harsh key and the begining of the heaeder; seem like it doesn't work everywhere.
+## Including Plots
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+plot(cars$speed)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Do you think it is good time to *sign off?*
+Yes! **Sir!**
+
+[click here to find a good bye message]("https://www.youtube.com/watch?v=DGQAJlvjaaE")
