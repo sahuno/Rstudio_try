@@ -3,8 +3,8 @@ title: "My_first_Rmarkdown"
 author: "Samuel Terkper Ahuno"
 date: "11/14/2019"
 output:
-  word_document: default
   pdf_document: default
+  word_document: default
   html_document:
     df_print: paged
 ---
@@ -28,6 +28,10 @@ summary(cars)
 ```{r summary(cars$speed)}
 head(cars$speed)
 ```
+## Things i can use markdown for
+- memo's
+- drafting messages for online forum; stackoverflow; biostars
+- it will be cool if i can draft messages via meddium via R markdown
 
 ## Hummm? should there be space between harsh key and the begining of the heaeder; seem like it doesn't work everywhere.
 ## Including Plots
